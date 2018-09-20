@@ -1,37 +1,26 @@
-title: Hello, world! I'm David Freeman
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-permalink: ':title/'
-baseurl: "/flexible-jekyll" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+# Site settings
+name: Less Or More
+email: luoyan35714@126.com
+author: Freud Kang
+url: http://www.hifreud.com
+resume_site: http://www.hifreud.com/Resume.io/
+github: https://github.com/luoyan35714/
+baseurl: "/LessOrMore"
+description: Actually, less is more!
+meta_description: 康志华;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
+motto: It's our wits that make us men.
+banner: 学而不思则罔，思而不学则殆。
 
-# Author Settings
-author: David Freeman # add your name
-author-img: david-freeman.jpg # add your photo
-about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
-social-github: artemsheludko # add your Github handle
-social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
 
-# Disqus
-discus-identifier: mr-brown # add your discus identifier
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
-# Tracker
-analytics: # Google Analytics
+github_username: luoyan35714
 
-# Build Settings
+# Build settings
 markdown: kramdown
-plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jemoji
 
-paginate: 8
-paginate_path: "/page/:num"
+baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
 
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
